@@ -1,0 +1,9 @@
+permission in linux allows admin to give access to user, group and others.
+
+rwx read write execute 
+chmod command is used to change user permission 
+r=4
+w=2
+x=1
+
+chmod 700 filename

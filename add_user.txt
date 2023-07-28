@@ -1,0 +1,14 @@
+sudo useradd -m priyanka (it will add user and at the same time it will create a directory of that user)
+sudo passwd priyanka 
+sudo cat /etc/passwd ----to view the users added
+su priyanka 
+password ------- It will switch to priyanka user
+
+TO ADD USER INTO GROUP----
+
+sudo groupadd babita(groupname)
+sudo gpasswd -a tappu babita
+
+sudo gpasswd -M tappu,jethalal,bheede babita
+
+sudo cat /etc/group  ---- to view the group members

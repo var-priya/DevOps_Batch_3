@@ -1,0 +1,4 @@
+Awk is a scripting language used for manipulating data and generating reports.
+awk '{print $1,$2}' employee.txt
+awk '/string/ {print $1,$2}' employee.txt
+awk 'NR>3 {print $1,$2}' employee.txt

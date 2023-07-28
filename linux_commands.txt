@@ -1,0 +1,15 @@
+cd---- change directory 
+mkdir--make a directory 
+history-- check all previous commands 
+touch ---- to create a file 
+cp ----copy the file
+mv ---move the file 
+rm -r ---remove file and directory
+vim ---editor
+ls----listing details 
+ls -la listing details in a long list
+df -h --to check disc space
+uname ---name of the kernal which is linux
+uname -r ----version of the kernal
+whoami ---- current loggedin user
+date ----its shows time n date

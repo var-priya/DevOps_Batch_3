@@ -1,0 +1,15 @@
+GREP----------
+
+grep (global regular expression print) will search input files for a search
+string, and print the lines that match it.
+
+grep "string" file_name
+grep -r <search_string> filename
+grep <serach string> filename >newfilename
+grep -i <search_string> filename (for insensitive string)
+grep -n "string" file_name (for including number of lines)
+grep -vn "string" file_name(for opposite result)
+grep -c "string" file_name (to print only number of lines)
+grep -x "string" file_name (to print exactly )
+grep -l "string" file_name (prints only the filenames of files in the query that have lines that match the search
+string.)
